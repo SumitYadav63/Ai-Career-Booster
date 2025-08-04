@@ -14,7 +14,7 @@ const AIReply = ({ messages }) => {
           mb={2}
         >
           {msg.sender === 'ai' && (
-            <Avatar alt="AI" src="https://i.pravatar.cc/40?img=12" sx={{ mr: 1 }} />
+            <Avatar alt="AI" src="logo3.png" sx={{ mr: 1 }} />
           )}
           <Box
             bgcolor={msg.sender === 'ai' ? '#f7f7f7' : '#1976d2'}
